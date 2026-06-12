@@ -1,13 +1,14 @@
 package d1.p83;
 
 public class StringConcatExample {
-    public static  void main(String[] args) {
+    public static void main(String[] args) {
         String str1 = "Java";
         String str2 = "JDK";
 
         String str3 = str1 + str2;
         String str4 = str1 + " " + str2;
 
+                    // JDK3 (String)
         String str5 = "JDK" + 3 + 3.0;
         String str6 = 3 + 3.0 + "JDK";
 

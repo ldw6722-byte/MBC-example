@@ -7,7 +7,7 @@ public class WhileExample {
             System.out.println(i);
             i++;
 
-            if(i == 5) {
+            if (i == 5) {
                 break;
             }
         }

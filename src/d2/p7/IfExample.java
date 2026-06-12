@@ -1,7 +1,7 @@
 package d2.p7;
 
 public class IfExample {
-    public static void  main(String[] args) {
+    public static void main(String[] args) {
         int score = 75;
 
         if (score >= 90) {
