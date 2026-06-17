@@ -9,7 +9,7 @@ public class Car {
     }
 
     Car(String color, int cc) {
-        System.out.println("Constructor Car(String color. int cc)");
+        System.out.println("Constructor Car(String color, int cc)");
         this.color = color;
         this.cc = cc;
     }

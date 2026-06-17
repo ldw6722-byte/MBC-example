@@ -1,7 +1,6 @@
 package d2.p91;
 
 public class Calculator {
-
     double areaRectangle(double width) {
         return width * width;
     }

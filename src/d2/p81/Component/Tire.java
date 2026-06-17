@@ -12,7 +12,7 @@ public class Tire {
         return size;
     }
 
-    public void setsize(int size) {
+    public void setSize(int size) {
         this.size = size;
     }
 }

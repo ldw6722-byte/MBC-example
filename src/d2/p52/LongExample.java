@@ -13,7 +13,7 @@ public class LongExample {
         Calendar cal = Calendar.getInstance();
         int iWeek = cal.get(Calendar.DAY_OF_WEEK);
 
-        switch  (iWeek) {
+        switch(iWeek) {
             case 1:
                 today = Week.SUNDAY;
                 break;
@@ -21,7 +21,7 @@ public class LongExample {
                 today = Week.MONDAY;
                 break;
             case 3:
-                today = Week.THURSDAY;
+                today = Week.TUESDAY;
                 break;
             case 4:
                 today = Week.WEDNESDAY;
@@ -36,12 +36,11 @@ public class LongExample {
                 today = Week.SATURDAY;
                 break;
         }
-
         System.out.println("오늘 요일 : " + today);
 
-        if (today == Week.SUNDAY) {
+        if(today == Week.SUNDAY) {
             System.out.println("오늘은 쉬는 날 입니다.");
-        } else {
+        }else{
             System.out.println("오늘은 공부하는 날 입니다.");
         }
     }

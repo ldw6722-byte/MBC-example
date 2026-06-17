@@ -1,6 +1,6 @@
-package d2.P50;
+package d2.p50;
 
-public class LongExample {
+public class Main {
     public static void main(String[] args) {
         int[][] mathScores = new int[2][3];
 

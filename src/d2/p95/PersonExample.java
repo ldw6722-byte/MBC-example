@@ -8,9 +8,8 @@ public class PersonExample {
         System.out.println(p1.ssn);
         System.out.println(p1.name);
 
-//        p1.nation = "USA";
-//        The final field cannot be assigned.
-//        p1.ssn = "654321-7654321";
+//        p1.ssn = "654321-7654322";
         p1.name = "LeeSoonsin";
+
     }
 }
