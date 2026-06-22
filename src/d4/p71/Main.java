@@ -24,5 +24,6 @@ public class Main {
 
         sdf = new SimpleDateFormat("이달의 d번째 날");
         System.out.println(sdf.format(now));
+
     }
 }

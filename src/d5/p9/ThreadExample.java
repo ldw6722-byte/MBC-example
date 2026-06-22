@@ -11,6 +11,7 @@ public class ThreadExample {
             try {
                 Thread.sleep(500);
             } catch (Exception e) {
+
             }
         }
     }

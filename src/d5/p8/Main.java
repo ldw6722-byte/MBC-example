@@ -7,15 +7,17 @@ public class Main {
             try {
                 Thread.sleep(500);
             } catch (Exception e) {
+
             }
         }
 
-        for (int i = 0; i < 5; i++) ;
-             System.out.println("똥");
-             try {
-            Thread.sleep(500);
+        for (int i = 0; i < 5; i++) {
+            System.out.println("똥");
+            try {
+                Thread.sleep(500);
             } catch (Exception e) {
+
             }
+        }
     }
 }
-

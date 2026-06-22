@@ -11,5 +11,7 @@ public class BoxExample {
         box2.set(6);
         int value = box2.get();
         System.out.println(value);
+
+//        Box<int> box3 = new Box<int>();
     }
 }

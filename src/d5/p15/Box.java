@@ -1,9 +1,9 @@
 package d5.p15;
 
-public class Box <T> {
-    private  T t;
+public class Box<T> {
+    private T t;
 
-    public  void set(T t) {
+    public void set(T t) {
         this.t = t;
     }
 
